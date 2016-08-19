@@ -14,6 +14,14 @@
 		F479AE311D66B8160099AAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F479AE301D66B8160099AAB4 /* Assets.xcassets */; };
 		F479AE341D66B8160099AAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F479AE321D66B8160099AAB4 /* LaunchScreen.storyboard */; };
 		F479AE3F1D66B8170099AAB4 /* InstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F479AE3E1D66B8170099AAB4 /* InstagramTests.m */; };
+		F479AE4F1D66BF3F0099AAB4 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F479AE4E1D66BF3F0099AAB4 /* PhotoCollectionViewController.m */; };
+		F479AE501D66BF3F0099AAB4 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F479AE4E1D66BF3F0099AAB4 /* PhotoCollectionViewController.m */; };
+		F479AE521D66C1CD0099AAB4 /* jupiter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F479AE511D66C1CD0099AAB4 /* jupiter.jpeg */; };
+		F479AE531D66C1CD0099AAB4 /* jupiter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F479AE511D66C1CD0099AAB4 /* jupiter.jpeg */; };
+		F479AE551D66C1F70099AAB4 /* messi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F479AE541D66C1F70099AAB4 /* messi.jpeg */; };
+		F479AE561D66C1F70099AAB4 /* messi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F479AE541D66C1F70099AAB4 /* messi.jpeg */; };
+		F479AE581D66C2050099AAB4 /* tech_chavis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F479AE571D66C2050099AAB4 /* tech_chavis.jpeg */; };
+		F479AE591D66C2050099AAB4 /* tech_chavis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F479AE571D66C2050099AAB4 /* tech_chavis.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,11 @@
 		F479AE3A1D66B8170099AAB4 /* InstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F479AE3E1D66B8170099AAB4 /* InstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramTests.m; sourceTree = "<group>"; };
 		F479AE401D66B8170099AAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F479AE4D1D66BF3F0099AAB4 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCollectionViewController.h; path = ../PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		F479AE4E1D66BF3F0099AAB4 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCollectionViewController.m; path = ../PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		F479AE511D66C1CD0099AAB4 /* jupiter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpeg; sourceTree = "<group>"; };
+		F479AE541D66C1F70099AAB4 /* messi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = messi.jpeg; sourceTree = "<group>"; };
+		F479AE571D66C2050099AAB4 /* tech_chavis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tech_chavis.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,8 @@
 		F479AE231D66B8160099AAB4 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				F479AE4D1D66BF3F0099AAB4 /* PhotoCollectionViewController.h */,
+				F479AE4E1D66BF3F0099AAB4 /* PhotoCollectionViewController.m */,
 				F479AE271D66B8160099AAB4 /* AppDelegate.h */,
 				F479AE281D66B8160099AAB4 /* AppDelegate.m */,
 				F479AE2A1D66B8160099AAB4 /* ViewController.h */,
@@ -88,6 +103,9 @@
 				F479AE2D1D66B8160099AAB4 /* Main.storyboard */,
 				F479AE301D66B8160099AAB4 /* Assets.xcassets */,
 				F479AE321D66B8160099AAB4 /* LaunchScreen.storyboard */,
+				F479AE511D66C1CD0099AAB4 /* jupiter.jpeg */,
+				F479AE571D66C2050099AAB4 /* tech_chavis.jpeg */,
+				F479AE541D66C1F70099AAB4 /* messi.jpeg */,
 				F479AE351D66B8160099AAB4 /* Info.plist */,
 				F479AE241D66B8160099AAB4 /* Supporting Files */,
 			);
@@ -191,9 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479AE551D66C1F70099AAB4 /* messi.jpeg in Resources */,
 				F479AE341D66B8160099AAB4 /* LaunchScreen.storyboard in Resources */,
 				F479AE311D66B8160099AAB4 /* Assets.xcassets in Resources */,
 				F479AE2F1D66B8160099AAB4 /* Main.storyboard in Resources */,
+				F479AE521D66C1CD0099AAB4 /* jupiter.jpeg in Resources */,
+				F479AE581D66C2050099AAB4 /* tech_chavis.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +222,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479AE531D66C1CD0099AAB4 /* jupiter.jpeg in Resources */,
+				F479AE561D66C1F70099AAB4 /* messi.jpeg in Resources */,
+				F479AE591D66C2050099AAB4 /* tech_chavis.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +237,7 @@
 			files = (
 				F479AE2C1D66B8160099AAB4 /* ViewController.m in Sources */,
 				F479AE291D66B8160099AAB4 /* AppDelegate.m in Sources */,
+				F479AE4F1D66BF3F0099AAB4 /* PhotoCollectionViewController.m in Sources */,
 				F479AE261D66B8160099AAB4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479AE501D66BF3F0099AAB4 /* PhotoCollectionViewController.m in Sources */,
 				F479AE3F1D66B8170099AAB4 /* InstagramTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
