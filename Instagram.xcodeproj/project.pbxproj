@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42D50691D714BDF00BC8297 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42D50681D714BDF00BC8297 /* FBSDKCoreKit.framework */; };
+		F42D506B1D714BEE00BC8297 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42D506A1D714BEE00BC8297 /* FBSDKLoginKit.framework */; };
+		F42D506D1D714C1400BC8297 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42D506C1D714C1400BC8297 /* FBSDKShareKit.framework */; };
+		F42D50701D714EB000BC8297 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D506F1D714EB000BC8297 /* HomeViewController.m */; };
 		F479AE261D66B8160099AAB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F479AE251D66B8160099AAB4 /* main.m */; };
 		F479AE291D66B8160099AAB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F479AE281D66B8160099AAB4 /* AppDelegate.m */; };
 		F479AE2C1D66B8160099AAB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F479AE2B1D66B8160099AAB4 /* ViewController.m */; };
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F42D50681D714BDF00BC8297 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F42D506A1D714BEE00BC8297 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F42D506C1D714C1400BC8297 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F42D506E1D714EB000BC8297 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F42D506F1D714EB000BC8297 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F479AE211D66B8160099AAB4 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F479AE251D66B8160099AAB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F479AE271D66B8160099AAB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42D506B1D714BEE00BC8297 /* FBSDKLoginKit.framework in Frameworks */,
+				F42D50691D714BDF00BC8297 /* FBSDKCoreKit.framework in Frameworks */,
+				F42D506D1D714C1400BC8297 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +113,17 @@
 				F479AE2A1D66B8160099AAB4 /* ViewController.h */,
 				F479AE2B1D66B8160099AAB4 /* ViewController.m */,
 				F479AE2D1D66B8160099AAB4 /* Main.storyboard */,
+				F42D506E1D714EB000BC8297 /* HomeViewController.h */,
+				F42D506F1D714EB000BC8297 /* HomeViewController.m */,
 				F479AE301D66B8160099AAB4 /* Assets.xcassets */,
 				F479AE321D66B8160099AAB4 /* LaunchScreen.storyboard */,
 				F479AE511D66C1CD0099AAB4 /* jupiter.jpeg */,
 				F479AE571D66C2050099AAB4 /* tech_chavis.jpeg */,
 				F479AE541D66C1F70099AAB4 /* messi.jpeg */,
 				F479AE351D66B8160099AAB4 /* Info.plist */,
+				F42D506C1D714C1400BC8297 /* FBSDKShareKit.framework */,
+				F42D506A1D714BEE00BC8297 /* FBSDKLoginKit.framework */,
+				F42D50681D714BDF00BC8297 /* FBSDKCoreKit.framework */,
 				F479AE241D66B8160099AAB4 /* Supporting Files */,
 			);
 			path = Instagram;
@@ -237,6 +254,7 @@
 			files = (
 				F479AE2C1D66B8160099AAB4 /* ViewController.m in Sources */,
 				F479AE291D66B8160099AAB4 /* AppDelegate.m in Sources */,
+				F42D50701D714EB000BC8297 /* HomeViewController.m in Sources */,
 				F479AE4F1D66BF3F0099AAB4 /* PhotoCollectionViewController.m in Sources */,
 				F479AE261D66B8160099AAB4 /* main.m in Sources */,
 			);
@@ -365,6 +383,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Instagram",
+				);
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Telegraph-Hill-Technology.Instagram";
@@ -376,6 +398,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Instagram",
+				);
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Telegraph-Hill-Technology.Instagram";
@@ -426,6 +452,7 @@
 				F479AE451D66B8170099AAB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F479AE461D66B8170099AAB4 /* Build configuration list for PBXNativeTarget "InstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +461,7 @@
 				F479AE481D66B8170099AAB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
