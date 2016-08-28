@@ -34,7 +34,16 @@
         
     }
     
+    [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+     startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+         
+         if (!error) {
+             NSLog(@"fetched user:%@  and Email : %@", result,result[@"email"]);
+         }
+     }];
     
+
+
 
     
 }
